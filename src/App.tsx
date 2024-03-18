@@ -6,7 +6,7 @@ const Paises = lazy(() => import('./components/Paises/Paises'));
 
 function App() {
   return (
-    <Suspense fallback={<h3>Hola Mundo</h3>}>
+    <Suspense fallback={<h3>Cargando...</h3>}>
       <Navegación />
       <Routes>
         <Route
@@ -19,7 +19,7 @@ function App() {
                 marginTop: '50px',
               }}
             >
-              <h1>Cargando...</h1>
+              <h1>Hola Mundo</h1>
             </div>
           }
         />
