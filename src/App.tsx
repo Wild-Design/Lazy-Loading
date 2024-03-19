@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navegación from './components/Navegación/Navegación';
 import Usuarios from './components/Usuarios/Usuarios';
+
 const Paises = lazy(() => import('./components/Paises/Paises'));
 
 function App() {
